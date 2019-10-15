@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.footers ul>li{
+    padding: 5px 0;
+}
+.footers ul>li a{
+    color: #333;
+    font-size: 14px;
+}
+.footers ul>li a:hover{
+    color:#0cf;
+    transition: .5s
+}
+/* .cp p{
+    padding-left: 30px;
+} */
+.ul-i li>a{
+    color:#333;
+    font-size: 14px;
+}
+.ul-i li>a:hover{
+   color:#0cf;
+   transition: .5s;
+}
+.my_ul li img{
+    width: 110px;
+}
+.item h5>i{
+    background: #333;
+    height: 20px;
+    width: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.item h5>span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.item h5>a{
+    float: right;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.my-d1,.my-d2{
+    border-right: 1px solid #ddd
+}
+.footers{
+    padding-bottom: 5%;
+}
+.footers>h1{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    text-align: center
+}
+.footer{
+    width: 100%;
+    background: #3d3d3f;
+    position: absolute;
+    bottom: 0;
+}
+.footer .p1{
+    color: #fff;
+}
+.footer .white{
+    color:#999
+}
+.footer .my_ul li>a{
+    color: #999;
+}
+.footer .my_ul li>a:hover{
+    color: #fff;
+    transition: .5s
+}
+.footer .my_ul p,.pq{
+    color:#fff;
+}
+.footer .my_ul li>p{
+    color:#999
+}
+.my_a1>a{
+    color:#999;
+}
+.my_ps p{
+    color:#999
+}
+.img_b,.img_a{
+    padding-left:5px;
+}
+
+
+
+
+
+
+

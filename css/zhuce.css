@@ -1,0 +1,236 @@
+ul,ol,p,h1,h2,h3,h4,h5,h6,pre,body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+input{
+  outline: none;
+}
+/* 头部 */
+header{
+  width:1200px;
+  height: 100px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+header div{
+  float:left;
+  padding-top:30px; 
+}
+header .span1{
+  display: block;
+  margin: -50px 0 0 60px;
+  color:#0cf;
+}
+header .span2{
+  display: block;
+  margin-left:56px;
+  color: #0cf;
+  font-size: 22px;
+  font-weight: bold
+}
+header .phone{
+  margin-left:56%;
+}
+/*身体*/
+#body{
+  background-image: url('../img/registered.jpg');
+  width: 100%;
+  height:810px;
+}
+#body .liebiao{
+  width:1200px;
+  height:750px;
+  margin: 0 auto;
+  
+}
+#body::before{
+  content: "";
+  display: table;
+}
+#body .bg{
+  background: white;
+  height:501px;
+  width:799px;
+  margin: 14.5% auto;
+}
+.div_a,.div_b{
+  float: left;
+}
+.div_a{
+  padding:0 50px;
+  border-right:1px solid gray;
+}
+.div_1 input,.div_2 input{
+  width:273px;
+  height:24px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 35px;
+}
+.div_1>span{
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background-image: url('../img/login_icons.png');
+  background-position: 0 -280px;
+  margin-top: 10px;
+  position: relative;
+  left:40px;
+  top:6px;
+}
+.div_2>span{
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background-image: url('../img/login_icons.png');
+  background-position: -279px -280px;
+  margin-top: 10px;
+  position: relative;
+  left:40px;
+  top:6px;
+}
+.div_2 .hint{
+  margin-left: 25px;
+  color:red;
+  font-size: 10px;
+}
+.div_3 input{
+  width:143px;
+  height:24px;
+  border-radius: 5px;
+  padding: 6px 8px 6px 10px;
+  /* margin-left: 25px; */
+  margin-top: 10px;
+}
+.div_3>span{
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background-image: url('../img/login_icons.png');
+  background-position:  -66px 0px;
+  margin-top: 10px;
+  position: relative;
+  left:40px;
+  top:6px;
+}
+.div_4 .input1{
+  /* border-radius: 5px; */
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 8px 5px 35px;
+  width:185px;
+  height:24px;
+}
+.div_4>span{
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background-image: url('../img/login_icons.png');
+  background-position:  -41px -320px;
+  margin-top: 10px;
+  position: relative;
+  left:40px;
+  top:6px;
+}
+.div_4 #btn{
+  position: relative;
+  right:5px;
+  top:1px;
+  padding: 8px 8px 8px 10px;
+  width:100px;
+  background: #fff;
+  border:1px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.div_5 input,.div_6 input{
+  width:298px;
+  height:24px;
+  border-radius: 5px;
+  padding: 4px 8px 4px 10px;
+  margin-top: 10px;
+}
+.div_5>span,.div_6>span{
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background-image: url('../img/login_icons.png');
+  background-position:  -66px 0px;
+  margin-top: 10px;
+  position: relative;
+  left:40px;
+  top:6px;
+}
+.div_7{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.div_7 button{
+  width:295px;
+  /* height: 24px; */
+  padding: 7px 8px 7px 10px;
+  margin-top: 9px;
+  background: #f1f1f1;
+  border:1px solid #ccc;
+  font-size: 16px;
+  color:gray;
+  border-radius: 5px;
+}
+.div_7 span{
+  font-size:12px;
+  color:rgb(112, 112, 112);
+}
+.div_7 span>a{
+  color:#0cf
+}
+/* .div_7 button{
+  background: #0cf;
+  color:white;
+} */
+
+.div_1 img{
+  position: absolute;
+  right: -30px;
+  top:337px;
+  display: none;
+}
+
+/*###################*/
+.div_b{
+  padding-left:50px;
+  text-align: center
+}
+.div_b .cut .my_i{
+  display: inline-block;
+  width:20px;
+  height:20px;
+  background-image: url(../img/login_icons.png);
+  background-position: 4px -240px;
+  vertical-align: middle;
+}
+.div_b .cut a{
+  color:#0cf;
+}
+.div_b .cut{
+  padding-top: 12px;
+  padding-bottom: 25px
+}
+.ps img{
+  margin-top: 10px;
+}
+canvas{
+  position: relative;
+  top:17px;
+}
+#point1,#point2,#point3{
+  margin-left:30px;
+  font-size: 12px;
+  color: red;
+}
